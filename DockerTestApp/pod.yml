@@ -1,0 +1,14 @@
+# Kubernetes pod
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hello-pod
+  labels:
+    app: web
+spec:
+  containers:
+    - name: docker-web-ctr
+      image: dockerdesktop
+      imagePullPolicy: IfNotPresent
+      ports:
+        - containerPort: 5000
