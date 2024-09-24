@@ -17,7 +17,7 @@ spec:
       terminationGracePeriodSeconds: 1
       containers:
         - name: hello-pod
-          image: dockerdesktop
+          image: swapnalikadam/dockertest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000
