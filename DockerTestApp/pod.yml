@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
     - name: docker-web-ctr
-      image: dockerdesktop
+      image: swapnalikadam/dockertest
       imagePullPolicy: IfNotPresent
       ports:
         - containerPort: 5000
